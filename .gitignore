@@ -1,0 +1,35 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+release.properties
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Generated packages and test reports
+artifacts/
+*.xcresult/
+
+# iOS
+ios/.derivedData/
+ios/Core/.build/
+ios/**/xcuserdata/
+ios/**/.swiftpm/
+
+# Relay runtime and secrets
+server/.venv/
+server/.runtime/
+server/public/*.apk
+**/__pycache__/
